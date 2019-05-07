@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6f010f17555e816b70df64d4b401dad",
+    "content-hash": "bf9eb2fc2c6bb496304ab81e3cf0d543",
     "packages": [
         {
             "name": "firebase/php-jwt",
@@ -18,7 +18,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/firebase/php-jwt/zipball/9984a4d3a32ae7673d6971ea00bae9d0a1abba0e",
                 "reference": "9984a4d3a32ae7673d6971ea00bae9d0a1abba0e",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": ">=5.3.0"
@@ -53,6 +59,49 @@
             "time": "2017-06-27T22:17:23+00:00"
         },
         {
+            "name": "lin-cms-tp/reflex-core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/china-wangyu/lin-cms-tp5-reflex-core.git",
+                "reference": "ae38d0cb06addba4dab9c2b163918b8dd800aae4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/china-wangyu/lin-cms-tp5-reflex-core/zipball/ae38d0cb06addba4dab9c2b163918b8dd800aae4",
+                "reference": "ae38d0cb06addba4dab9c2b163918b8dd800aae4",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.1.0",
+                "wangyu/reflex-core": ">=0.0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LinCmsTp\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "wangyu",
+                    "email": "china_wangyu@aliyun.com"
+                }
+            ],
+            "description": "LinCms TP5.1 的反射类核心模块封装，含路由注册，路由及请求类型验证，路由参数验证中间件，方法注释参数提取器，基于`wangyu/reflex-core`扩展",
+            "time": "2019-05-06T15:48:25+00:00"
+        },
+        {
             "name": "lin-cms-tp5/model-core",
             "version": "0.0.2",
             "source": {
@@ -64,7 +113,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/ChenJinchuang/lin-cms-tp5-model-core/zipball/c0800ef35297aa88a6b0a25e0e23716db0d3ac07",
                 "reference": "c0800ef35297aa88a6b0a25e0e23716db0d3ac07",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": ">=7.1.0",
@@ -100,7 +155,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/top-think/framework/zipball/135eee67ce9ee0b07da201f743d7dd88ec431abb",
                 "reference": "135eee67ce9ee0b07da201f743d7dd88ec431abb",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": ">=5.6.0",
@@ -151,7 +212,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/top-think/think-installer/zipball/f5400a12c60e513911aef41fe443fa6920952675",
                 "reference": "f5400a12c60e513911aef41fe443fa6920952675",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "composer-plugin-api": "^1.0"
@@ -192,7 +259,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/top-think/think-migration/zipball/70c89850ca29c2eab988c7c3475d1d5331901bb8",
                 "reference": "70c89850ca29c2eab988c7c3475d1d5331901bb8",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "topthink/framework": "5.1.*"
@@ -218,12 +291,56 @@
                 }
             ],
             "time": "2017-12-31T16:32:22+00:00"
+        },
+        {
+            "name": "wangyu/reflex-core",
+            "version": "0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/china-wangyu/php-reflex-core.git",
+                "reference": "44ae5f7ff53f20e576f124c564f4a893c1646ac5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/china-wangyu/php-reflex-core/zipball/44ae5f7ff53f20e576f124c564f4a893c1646ac5",
+                "reference": "44ae5f7ff53f20e576f124c564f4a893c1646ac5",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WangYu\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "wangyu",
+                    "email": "china_wangyu@aliyun.com"
+                }
+            ],
+            "description": "原生PHP的reflex反射注释模型composer扩展",
+            "time": "2019-05-06T15:59:26+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "lin-cms-tp/reflex-core": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
