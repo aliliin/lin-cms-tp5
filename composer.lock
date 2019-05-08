@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf9eb2fc2c6bb496304ab81e3cf0d543",
+    "content-hash": "3c8584f54827eab869ebda0ef09ec2ca",
     "packages": [
         {
             "name": "firebase/php-jwt",
@@ -59,17 +59,17 @@
             "time": "2017-06-27T22:17:23+00:00"
         },
         {
-            "name": "lin-cms-tp/reflex-core",
+            "name": "lin-cms-tp/param-core",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/china-wangyu/lin-cms-tp5-reflex-core.git",
-                "reference": "ae38d0cb06addba4dab9c2b163918b8dd800aae4"
+                "url": "https://github.com/china-wangyu/lin-cms-tp-param-core.git",
+                "reference": "097b0edab79a4eba0fb850bad912fe270265c40d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/china-wangyu/lin-cms-tp5-reflex-core/zipball/ae38d0cb06addba4dab9c2b163918b8dd800aae4",
-                "reference": "ae38d0cb06addba4dab9c2b163918b8dd800aae4",
+                "url": "https://api.github.com/repos/china-wangyu/lin-cms-tp-param-core/zipball/097b0edab79a4eba0fb850bad912fe270265c40d",
+                "reference": "097b0edab79a4eba0fb850bad912fe270265c40d",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -98,8 +98,51 @@
                     "email": "china_wangyu@aliyun.com"
                 }
             ],
-            "description": "LinCms TP5.1 的反射类核心模块封装，含路由注册，路由及请求类型验证，路由参数验证中间件，方法注释参数提取器，基于`wangyu/reflex-core`扩展",
-            "time": "2019-05-06T15:48:25+00:00"
+            "description": "LinCms TP 的反射参数中间件封装，含路由参数验证中间件，方法注释参数提取器，基于`wangyu/reflex-core`扩展",
+            "time": "2019-05-08T01:46:07+00:00"
+        },
+        {
+            "name": "lin-cms-tp/reflex-core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/china-wangyu/lin-cms-tp-route-core.git",
+                "reference": "48fbb4f4467819f13bf8cf50431ab048e0e49f82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/china-wangyu/lin-cms-tp-route-core/zipball/48fbb4f4467819f13bf8cf50431ab048e0e49f82",
+                "reference": "48fbb4f4467819f13bf8cf50431ab048e0e49f82",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.1.0",
+                "wangyu/reflex-core": ">=0.0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LinCmsTp\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "wangyu",
+                    "email": "china_wangyu@aliyun.com"
+                }
+            ],
+            "description": "LinCms TP 的反射类核心模块封装，含多种路由注册模式，路由及请求类型验证,基于`wangyu/reflex-core`扩展",
+            "time": "2019-05-07T10:09:00+00:00"
         },
         {
             "name": "lin-cms-tp5/model-core",
@@ -339,7 +382,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "lin-cms-tp/reflex-core": 20
+        "lin-cms-tp/reflex-core": 20,
+        "lin-cms-tp/param-core": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

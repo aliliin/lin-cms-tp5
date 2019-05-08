@@ -10,12 +10,13 @@
 // +----------------------------------------------------------------------
 
 use \LinCmsTp\Route as LinRoute;
-//LinRoute::init();
+//dump(request());die;
+LinRoute::init();  // 模块路由，默认API模块
+//LinRoute::cls('app\api\controller\v1\Book',['Auth','linRouteParam']); // 类路由注册
+//LinRoute::fuc('app\api\controller\v1\Book','getBooks',['Auth','linRouteParam']); // 方法路由注册
 
-//LinRoute::cls('app\api\controller\v1\Book',['Auth','linRouteParam']);
-LinRoute::fuc('app\api\controller\v1\Book','getBooks',['Auth','linRouteParam']);
 //use think\facade\Route;
-//
+
 //Route::group('', function () {
 //    Route::group('cms', function () {
 //        // 账户相关接口分组

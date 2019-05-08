@@ -11,7 +11,7 @@ use think\Request;
 /**
  * Class Book
  * @route('v1/book')
- * @middleware('linRouteParam')
+ * @middleware('Auth','linRouteParam')
  * @package app\api\controller\v1
  */
 class Book
@@ -31,7 +31,6 @@ class Book
     /**
      * 查询所有图书
      * @route('','get')
-     * @validate('LoginForm')
      * @return mixed
      */
     public function getBooks()
