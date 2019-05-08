@@ -21,7 +21,8 @@
     "firebase/php-jwt": "^5.0",
     "topthink/think-migration": "2.*",
     "lin-cms-tp5/model-core": "0.0.2",
-    "lin-cms-tp/reflex-core": "dev-master"
+    "lin-cms-tp/reflex-core": "dev-master",
+    "lin-cms-tp/param-core": "dev-master"
   },
   "autoload": {
     "psr-4": {

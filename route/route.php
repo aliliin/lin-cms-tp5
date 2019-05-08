@@ -12,7 +12,8 @@
 use \LinCmsTp\Route as LinRoute;
 //LinRoute::init();
 
-LinRoute::cls('app\api\controller\v1\Book',['Auth','linRouteParam']);
+//LinRoute::cls('app\api\controller\v1\Book',['Auth','linRouteParam']);
+LinRoute::fuc('app\api\controller\v1\Book','getBooks',['Auth','linRouteParam']);
 //use think\facade\Route;
 //
 //Route::group('', function () {
