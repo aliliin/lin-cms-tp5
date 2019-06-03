@@ -15,11 +15,15 @@ return [
     // 服务器地址
     'hostname'        => 'mysql',
     // 数据库名
+<<<<<<< HEAD
     'database'        => 'lin-cms',
+=======
+    'database'        => 'lin-test',
+>>>>>>> e4ba82be13b604620fc51a109721400934b62d7c
     // 用户名
     'username'        => 'root',
     // 密码
-    'password'        => 'root',
+    'password'        => '',
     // 端口
     'hostport'        => '',
     // 连接dsn
