@@ -189,7 +189,7 @@ You can exit with `CTRL-C`
 
 打开浏览器，访问``http://127.0.0.1:8000``，你会看到一个欢迎界面，至此，Lin-cms-tp5部署完毕，可搭配[lin-cms-vue](https://github.com/TaleLin/lin-cms-vue)使用了。
 
-<<<<<<< HEAD
+
 ## 注释验证器模式
 
 > 参数说明见[注释验证器文档](https://github.com/china-wangyu/lin-cms-tp-validate-core)
@@ -242,7 +242,7 @@ QQ 群号：643205479
 
 <img class="QR-img" width="258" height="300" src="http://imglf3.nosdn0.126.net/img/Qk5LWkJVWkF3Nmdyc2xGcUtScEJLOVV1clErY1dJa0FsQ3E1aDZQWlZHZ2dCbSt4WXA1V3dRPT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg">
 
-<<<<<<< HEAD
+
 ```php
     /**
      * 账户登陆
@@ -262,9 +262,10 @@ QQ 群号：643205479
 微信公众号搜索：林间有风
 <br>
 <img class="QR-img" src="http://imglf6.nosdn0.126.net/img/YUdIR2E3ME5weEdlNThuRmI4TFh3UWhiNmladWVoaTlXUXpicEFPa1F6czFNYkdmcWRIbGRRPT0.jpg?imageView&thumbnail=500x0&quality=96&stripmeta=0&type=jpg" width="150" height="150" style='text-align:left;width: 100px;height: 100px'>
-=======
+
 ### 微信公众号
->>>>>>> e4ba82be13b604620fc51a109721400934b62d7c
+
+
 
 微信搜索：林间有风
 
